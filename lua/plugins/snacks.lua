@@ -20,9 +20,13 @@ return {
         enabled = true,
       },
     },
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
+    picker = {
+      formatters = {
+        file = {
+          truncate = 80,
+        },
+      },
+    },
   },
   keys = {
     {
